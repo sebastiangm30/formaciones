@@ -1,9 +1,9 @@
-package treinta.reto.java;
+package java;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
-import treinta.reto.java.models.Person;
+import java.models.Person;
 
 
 public class AdminObjects {

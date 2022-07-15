@@ -1,4 +1,4 @@
-package treinta.reto.java.models;
+package java.models;
 
 public class Person extends Thing{
 
