@@ -15,9 +15,9 @@ import treinta.actions.RenderActions;
 @UseTestDataFrom("data/dataSum.csv")
 public class WhenIVerifyTheSum {
 
-  private int a;
-  private int b;
-  private int sum;
+  private String a;
+  private String b;
+  private String sum;
 
   @Managed(driver = "chrome")
   private WebDriver driver;
@@ -27,7 +27,7 @@ public class WhenIVerifyTheSum {
 
   @Test
   public void validateSum(){
-    renderActions.madeTheSum(String.valueOf(a), String.valueOf(b));
+    renderActions.madeTheSum(a, b);
     String total = renderActions.getSumVale();
     assertThat(total).isEqualTo(sum);
   }
