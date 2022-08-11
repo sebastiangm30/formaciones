@@ -1,4 +1,4 @@
-package treinta.pages;
+package com.treinta.pages;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;

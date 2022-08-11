@@ -37,7 +37,8 @@ dependencies {
                 "junit:junit:${junitVersion}",
                 "org.assertj:assertj-core:${assertJVersion}",
                 "org.projectlombok:lombok:${lombokVersion}",
-                "ch.qos.logback:logback-classic:${logbackVersion}"
+                "ch.qos.logback:logback-classic:${logbackVersion}",
+            "io.appium:java-client:7.4.1"
 }
 
 test {
