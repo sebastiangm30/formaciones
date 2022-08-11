@@ -1,6 +1,6 @@
-package com.treinta.test;
+package com.treinta.treintapp.test;
 
-import com.treinta.actions.RenderActions;
+import com.treinta.treintapp.actions.LoginTreintaActions;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
@@ -9,17 +9,17 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-public class WhenIVerifyTheTextRendering {
+public class UserCanLogin {
 
-  @Managed(driver = "chrome")
+  @Managed
   private WebDriver driver;
 
   @Steps
-  RenderActions renderActions;
+  LoginTreintaActions loginTreintaActions;
 
   @Test
-  public void validateTextRendering(){
-    String message = "Hola Mundo";
-    renderActions.validateBasicRendering(message);
+  public void loginWithPhone(){
+    loginTreintaActions.loginSuccessful();
   }
+
 }

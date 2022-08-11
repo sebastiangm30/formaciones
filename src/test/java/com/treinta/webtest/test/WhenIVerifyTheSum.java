@@ -1,8 +1,8 @@
-package com.treinta.test;
+package com.treinta.webtest.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.treinta.actions.RenderActions;
+import com.treinta.webtest.actions.RenderActions;
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;

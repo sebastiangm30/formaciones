@@ -1,10 +1,10 @@
-package com.treinta.actions;
+package com.treinta.webtest.actions;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static com.treinta.pages.InputFormsPage.A_FIELD;
-import static com.treinta.pages.InputFormsPage.B_FIELD;
-import static com.treinta.pages.InputFormsPage.DISPLAY_VALUE;
-import static com.treinta.pages.InputFormsPage.GET_TOTAL;
+import static com.treinta.webtest.pages.InputFormsPage.A_FIELD;
+import static com.treinta.webtest.pages.InputFormsPage.B_FIELD;
+import static com.treinta.webtest.pages.InputFormsPage.DISPLAY_VALUE;
+import static com.treinta.webtest.pages.InputFormsPage.GET_TOTAL;
 
 import java.time.Duration;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -12,7 +12,7 @@ import net.serenitybdd.core.steps.UIInteractionSteps;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import com.treinta.pages.InputFormsPage;
+import com.treinta.webtest.pages.InputFormsPage;
 
 public class RenderActions extends UIInteractionSteps {
 

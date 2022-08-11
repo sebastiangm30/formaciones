@@ -1,4 +1,4 @@
-package com.treinta.pages;
+package com.treinta.webtest.pages;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;

@@ -5,7 +5,7 @@ plugins {
     id 'idea'
 }
 
-defaultTasks 'clean','test','aggregate'
+defaultTasks 'clean', 'test', 'aggregate'
 
 repositories {
     mavenLocal()
@@ -32,12 +32,12 @@ ext {
 
 dependencies {
     testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
-                "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
-                "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
-                "junit:junit:${junitVersion}",
-                "org.assertj:assertj-core:${assertJVersion}",
-                "org.projectlombok:lombok:${lombokVersion}",
-                "ch.qos.logback:logback-classic:${logbackVersion}",
+            "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
+            "junit:junit:${junitVersion}",
+            "org.assertj:assertj-core:${assertJVersion}",
+            "org.projectlombok:lombok:${lombokVersion}",
+            "ch.qos.logback:logback-classic:${logbackVersion}",
             "io.appium:java-client:7.4.1"
 }
 
